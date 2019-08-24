@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>螢幕計算機</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .button {
+        width: 60px; height: 30px;
+        margin: 5px 5px;
+        border-radius: 25px;
+        color: #222;
+        font-size: 16px;
+      }
+
+      .button-agree {
+        background-color: #A7E8BD;
+      }
+
+      .button-disagree {
+        background-color: #FCBCB8;
+      }
+  
+      .button:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body id="body">
+    <button id="turn-on" class="button button-agree">啟動</button>
+    <button id="turn-off" class="button button-disagree">關閉</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
